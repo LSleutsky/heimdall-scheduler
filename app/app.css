@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-purple-darkest: #10002b;
+  --color-purple-darker: #240046;
+  --color-purple-dark: #3c096c;
+  --color-purple-base: #5a189a;
+  --color-purple-base-light: #7b2cbf;
+  --color-purple-light: #9d4edd;
+  --color-purple-lighter: #c77dff;
+  --color-purple-lightest: #e0aaff;
+}
