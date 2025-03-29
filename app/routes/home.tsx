@@ -5,5 +5,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <h1 className='text-red-500 dark:text-white'>This is the Home Page</h1>;
+  return <h1 className="text-galactic-violet dark:text-starry-grape">This is the Home Page</h1>;
 }

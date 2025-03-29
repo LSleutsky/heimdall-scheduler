@@ -3,15 +3,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-purple-black: #0b0205;
-  --color-purple-darkest: #240046;
-  --color-purple-darker: #2C1B47;
-  --color-purple-dark: #310047;
-  --color-purple-base: #5a189a;
-  --color-purple-base-light: #7b2cbf;
-  --color-purple-light: #9d4edd;
-  --color-purple-lighter: #9356a0;
-  --color-purple-lightest: #DCCAE9;
+  --color-nebula-purple: #702963;
+  --color-electric-orchid: #da70d6;
+  --color-galactic-violet: #191970;
+  --color-starry-grape: #c0c0c0;
+  --color-light-matter: #4A148C;
 }
 
 html,
