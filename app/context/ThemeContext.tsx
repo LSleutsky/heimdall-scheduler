@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import type { ReactNode } from 'react';
+import type { FC, ReactNode } from 'react';
 
 interface ThemeContextType {
   theme: `light` | `dark`;
@@ -12,9 +12,9 @@ interface ThemeProviderProps {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }: ThemeProviderProps) => {
+export const ThemeProvider: FC<ThemeProviderProps> = ({ children }: ThemeProviderProps) => {
   const [theme, setTheme] = useState<`light` | `dark` | null>(null);
-  const toggleTheme = () => setTheme((prevTheme) => (prevTheme === `dark` ? `light` : `dark`));
+  const toggleTheme = () => setTheme(prevTheme => (prevTheme === `dark` ? `light` : `dark`));
 
   useEffect(() => {
     const storedTheme = localStorage.getItem(`theme`) as `light` | `dark` | null;

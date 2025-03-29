@@ -213,6 +213,7 @@ export default [
             ['^@mui/material'],
             ['^(./layouts)(/.*|$)'],
             ['^(~/components)(/.*|$)'],
+            ['^(~/context)(/.*|$)'],
             ['^(~/hooks)(/.*|$)'],
             ['^(~/utils)(/.*|$)'],
             ['^\\./'],
